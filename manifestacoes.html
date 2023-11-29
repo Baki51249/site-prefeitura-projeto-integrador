@@ -57,13 +57,13 @@
       Você pode também denunciar alguma irregularidade na sua rua, no seu bairro, basta preencher os espaços
       abaixo e anexar fotos, caso necessite.</p>
 
-    <form method="POST" action="https://server-prefeitura-projeto.onrender.com">
+    <form method="POST" action="http://localhost:9000/">
 
       <input type="text" placeholder="nome" name="nome">
       <input type="text" placeholder="telefone" name="telefone">
       <input type="text" placeholder="endereço" name="endereco">
       <textarea name="descricao" id="" cols="30" rows="10" placeholder="descrição" name="descricao"></textarea>
-
+      <input class="file" type="file" placeholder="anexar fotos" name="foto">
       <button onclick="openModal()" type="submit">enviar</button>  
     </form>
     
