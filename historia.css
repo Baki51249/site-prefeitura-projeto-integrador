@@ -73,7 +73,10 @@ b {
         grid-template-columns: 1fr;
 
     }
-
+    .brasao {
+        width: 90px;
+        height: 90px;
+    }
     .carousel {
         max-width: 100%;
     }

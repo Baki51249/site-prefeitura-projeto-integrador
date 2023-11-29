@@ -34,7 +34,7 @@ header nav {
     align-items: center;
     height: 80px;
     margin-top: 40px;
-   width: 100vi;
+   width: 100vw;
 
 }
 
@@ -111,6 +111,8 @@ footer {
     color: #ffffff;
     padding: 20px;
     width: 100vi;
+   
+    
 }
 
 .carousel-item div {
